@@ -5,6 +5,8 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
+import gallery7 from "@/assets/gallery-7.jpg";
+import gallery8 from "@/assets/gallery-8.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -16,6 +18,8 @@ const Gallery = () => {
     { src: gallery4, alt: "Fuso helicoidal de compressor" },
     { src: gallery5, alt: "Motor de compressor industrial" },
     { src: gallery6, alt: "Peças de compressor em manutenção" },
+    { src: gallery7, alt: "Bloco de compressor industrial" },
+    { src: gallery8, alt: "Estator e rotor de motor elétrico" },
   ];
 
   return (
