@@ -10,12 +10,12 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: gallery1, alt: "Compressor de ar condicionado industrial" },
-    { src: gallery2, alt: "Manutenção de motor de compressor" },
-    { src: gallery3, alt: "Instalação de ar condicionado split" },
-    { src: gallery4, alt: "Torre de resfriamento industrial" },
-    { src: gallery5, alt: "Técnico realizando manutenção" },
-    { src: gallery6, alt: "Chiller industrial" },
+    { src: gallery1, alt: "Manutenção de motor de compressor" },
+    { src: gallery2, alt: "Motor de compressor na bancada" },
+    { src: gallery3, alt: "Técnico realizando manutenção em motor" },
+    { src: gallery4, alt: "Fuso helicoidal de compressor" },
+    { src: gallery5, alt: "Motor de compressor industrial" },
+    { src: gallery6, alt: "Peças de compressor em manutenção" },
   ];
 
   return (
