@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logoAirjet from "@/assets/logo-airjet.png";
 
@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={logoAirjet}
               alt="AirJet Climatização e Refrigeração"
-              className="h-14 lg:h-16 w-auto object-contain"
+              className="h-20 lg:h-24 w-auto object-contain"
             />
           </a>
 
@@ -40,13 +40,6 @@ const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <a 
-              href="tel:+5516991613129" 
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Phone className="w-4 h-4" />
-              <span className="font-medium">(16) 99161-3129</span>
-            </a>
             <Button asChild variant="hero" size="default">
               <a href="#contato">Solicitar Orçamento</a>
             </Button>
@@ -76,13 +69,6 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a 
-                href="tel:+5516991613129" 
-                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors py-2"
-              >
-                <Phone className="w-4 h-4" />
-                <span className="font-medium">(16) 99161-3129</span>
-              </a>
               <Button asChild variant="hero" size="lg" className="mt-2">
                 <a href="#contato">Solicitar Orçamento</a>
               </Button>
