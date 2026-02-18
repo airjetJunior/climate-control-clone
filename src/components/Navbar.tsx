@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={logoAirjet}
               alt="AirJet Climatização e Refrigeração"
-              className="h-20 lg:h-24 w-auto object-contain"
+              className="h-16 lg:h-20 w-auto object-contain"
             />
           </a>
 
