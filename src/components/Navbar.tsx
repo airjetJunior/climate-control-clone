@@ -20,7 +20,10 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">A</span>
             </div>
-            <span className="font-bold text-xl text-foreground">AirJet</span>
+            <span className="font-black text-2xl tracking-tight">
+              <span className="text-gradient">Air</span>
+              <span className="text-foreground">Jet</span>
+            </span>
           </a>
 
           {/* Desktop Navigation */}
