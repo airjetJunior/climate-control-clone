@@ -12,7 +12,7 @@ const Footer = () => {
               <img
                 src={logoAirjet}
                 alt="AirJet Climatização e Refrigeração"
-                className="h-20 w-auto object-contain brightness-0 invert"
+                className="h-16 w-auto object-contain"
               />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
