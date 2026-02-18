@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoAirjet from "@/assets/logo-airjet.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,18 +17,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center shadow-md">
-              <span className="text-primary-foreground font-black text-lg">A</span>
-            </div>
-            <div className="flex flex-col items-center leading-tight">
-              <span className="font-black text-2xl tracking-[0.15em] uppercase bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent drop-shadow-sm">
-                Air Jet
-              </span>
-              <span className="text-[9px] font-bold tracking-[0.2em] uppercase text-primary border-t border-primary/30 pt-0.5 mt-0.5 w-full text-center">
-                Climatização & Refrigeração
-              </span>
-            </div>
+          <a href="/" className="flex items-center">
+            <img
+              src={logoAirjet}
+              alt="AirJet Climatização e Refrigeração"
+              className="h-14 lg:h-16 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
