@@ -65,20 +65,9 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elevated">
               <img
                 src={heroImage}
-                alt="Técnico profissional da AirJet instalando ar condicionado"
-                className="w-full h-auto object-cover"
+                alt="Equipamento de climatização industrial AirJet"
+                className="w-full h-[500px] lg:h-[600px] object-cover"
               />
-              
-              {/* Experience Badge */}
-              <div className="absolute bottom-6 left-6 bg-card rounded-xl px-6 py-4 shadow-lg">
-                <div className="flex items-center gap-3">
-                  <span className="text-4xl font-bold text-primary">10+</span>
-                  <div className="text-sm text-muted-foreground leading-tight">
-                    <div>Anos de</div>
-                    <div className="font-semibold text-foreground">Experiência</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
