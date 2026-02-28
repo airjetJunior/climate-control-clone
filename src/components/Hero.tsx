@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 py-12 lg:py-20 relative z-10">
-        <div className="grid lg:grid-cols-[2fr_3fr] gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="animate-fade-in-up">
             <span className="inline-block px-4 py-2 bg-primary-light text-primary rounded-full text-sm font-semibold mb-6">
