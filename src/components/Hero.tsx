@@ -21,9 +21,12 @@ const Hero = () => {
         <div className="grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="animate-fade-in-up">
-            <span className="inline-block px-4 py-2 bg-primary-light text-primary rounded-full text-sm font-semibold mb-6">
-              Mais de 10 anos de experiência
-            </span>
+            <div className="inline-flex items-center gap-3 px-5 py-3 bg-primary/10 border-2 border-primary/30 rounded-xl mb-6">
+              <span className="text-3xl font-extrabold text-primary">+10</span>
+              <span className="text-sm font-semibold text-primary leading-tight">
+                Anos de<br />Experiência
+              </span>
+            </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6">
               Climatização
