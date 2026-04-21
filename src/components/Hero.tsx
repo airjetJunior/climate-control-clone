@@ -18,6 +18,13 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 py-12 lg:py-20 relative z-10">
+        {/* Centered H1 at the top */}
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-12 lg:mb-16 text-center max-w-4xl mx-auto animate-fade-in-up">
+          Instalação e Manutenção de{" "}
+          <span className="text-primary">Ar-Condicionado</span>{" "}
+          em Ribeirão Preto e Região
+        </h1>
+
         <div className="grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="animate-fade-in-up">
@@ -27,12 +34,6 @@ const Hero = () => {
                 Anos de<br />Experiência
               </span>
             </div>
-
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6">
-              Instalação e Manutenção de
-              <span className="text-primary block">Ar-Condicionado</span>
-              em Ribeirão Preto e Região
-            </h1>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
               A AirJet Climatização é uma empresa sediada em Ribeirão Preto, especializada
