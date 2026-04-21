@@ -5,14 +5,14 @@ const Services = () => {
   const services = [
     {
       icon: Wind,
-      title: "Instalação de Ar-Condicionado em Ribeirão Preto",
+      title: "Instalação de Ar-Condicionado em Ribeirão Preto e Região",
       description: "Instalação profissional de ar-condicionado para atendimento residencial, comercial e industrial em Ribeirão Preto e região.",
       features: ["Split", "Multi-split", "VRF", "Cassete"],
     },
     {
       icon: Wrench,
       title: "Manutenção Preventiva e Corretiva de Ar-Condicionado",
-      description: "Serviços completos de manutenção de ar-condicionado em Ribeirão Preto para garantir o funcionamento perfeito do seu equipamento.",
+      description: "Serviços completos de manutenção de ar-condicionado em Ribeirão Preto e região para garantir o funcionamento perfeito do seu equipamento.",
       features: ["Limpeza de filtros", "Recarga de gás", "Troca de peças", "Verificação elétrica"],
     },
     {
@@ -33,7 +33,7 @@ const Services = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Soluções completas em climatização e refrigeração para atendimento residencial,
-            comercial e industrial em Ribeirão Preto – SP.
+            comercial e industrial em Ribeirão Preto e região.
           </p>
         </div>
 
