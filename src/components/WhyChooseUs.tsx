@@ -30,11 +30,17 @@ const WhyChooseUs = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Por Que Escolher a AirJet?
+            Empresa de Climatização em Ribeirão Preto – SP
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Compromisso com qualidade e satisfação do cliente em cada serviço
+          <p className="text-lg text-muted-foreground mb-4">
+            A AirJet Climatização atua há mais de 10 anos como empresa de climatização em
+            Ribeirão Preto, com técnicos em ar-condicionado especializados em atendimento
+            residencial, comercial e industrial. Solicite um orçamento rápido pelo WhatsApp
+            ou telefone e fale com nossa equipe local.
           </p>
+          <h3 className="text-base font-semibold text-primary">
+            Técnico em ar-condicionado em Ribeirão Preto · Orçamento rápido e atendimento especializado
+          </h3>
         </div>
 
         {/* Reasons Grid */}

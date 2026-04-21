@@ -29,14 +29,15 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6">
-              Climatização
-              <span className="text-primary block">Perfeita Para</span>
-              Seu Ambiente
+              Instalação e Manutenção de
+              <span className="text-primary block">Ar-Condicionado</span>
+              em Ribeirão Preto
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              Instalação, manutenção de ar condicionado e retífica de compressores 
-              em Ribeirão Preto. Qualidade e confiança garantidas.
+              A AirJet Climatização é uma empresa especializada em instalação e manutenção
+              de ar-condicionado em Ribeirão Preto, oferecendo soluções completas em
+              climatização e refrigeração com atendimento rápido e equipe técnica qualificada.
             </p>
 
             {/* Features List */}
@@ -68,8 +69,9 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elevated">
               <img
                 src={heroImage}
-                alt="Equipamento de climatização industrial AirJet"
+                alt="Técnico em ar-condicionado em Ribeirão Preto realizando manutenção - AirJet Climatização"
                 className="w-full h-[500px] lg:h-[600px] object-cover"
+                loading="eager"
               />
             </div>
           </div>
