@@ -30,16 +30,17 @@ const WhyChooseUs = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Empresa de Climatização em Ribeirão Preto – SP
+            Empresa de Climatização Sediada em Ribeirão Preto – SP
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            A AirJet Climatização atua há mais de 10 anos como empresa de climatização em
-            Ribeirão Preto, com técnicos em ar-condicionado especializados em atendimento
-            residencial, comercial e industrial. Solicite um orçamento rápido pelo WhatsApp
-            ou telefone e fale com nossa equipe local.
+            A AirJet Climatização atua há mais de 10 anos como empresa de climatização
+            sediada em Ribeirão Preto, atendendo Ribeirão Preto e região com técnicos em
+            ar-condicionado especializados em serviços residenciais, comerciais e
+            industriais. Solicite um orçamento rápido pelo WhatsApp ou telefone e fale com
+            nossa equipe local.
           </p>
           <h3 className="text-base font-semibold text-primary">
-            Técnico em ar-condicionado em Ribeirão Preto · Orçamento rápido e atendimento especializado
+            Técnico em ar-condicionado em Ribeirão Preto e região · Orçamento rápido e atendimento especializado
           </h3>
         </div>
 

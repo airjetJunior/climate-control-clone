@@ -19,15 +19,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: gallery1, alt: "Manutenção de ar-condicionado em Ribeirão Preto - AirJet Climatização" },
-    { src: gallery2, alt: "Retífica de compressor de ar-condicionado em Ribeirão Preto" },
-    { src: gallery3, alt: "Técnico em ar-condicionado em Ribeirão Preto realizando manutenção" },
+    { src: gallery1, alt: "Manutenção de ar-condicionado em Ribeirão Preto e região - AirJet Climatização" },
+    { src: gallery2, alt: "Retífica de compressor de ar-condicionado em Ribeirão Preto e região" },
+    { src: gallery3, alt: "Técnico em ar-condicionado em Ribeirão Preto e região realizando manutenção" },
     { src: gallery4, alt: "Fuso helicoidal de compressor - retífica de compressores" },
     { src: gallery5, alt: "Motor de compressor industrial - climatização e refrigeração" },
-    { src: gallery6, alt: "Peças de compressor em manutenção - empresa de climatização Ribeirão Preto" },
+    { src: gallery6, alt: "Peças de compressor em manutenção - empresa de climatização em Ribeirão Preto e região" },
     { src: gallery7, alt: "Bloco de compressor industrial - retífica de compressores" },
     { src: gallery8, alt: "Estator e rotor de motor elétrico de compressor" },
-    { src: gallery9, alt: "Compressor Hitachi parafuso - manutenção em Ribeirão Preto" },
+    { src: gallery9, alt: "Compressor Hitachi parafuso - manutenção em Ribeirão Preto e região" },
     { src: gallery10, alt: "Placa de válvulas de compressor de ar-condicionado" },
     { src: gallery11, alt: "Instalação de ar-condicionado comercial em chiller" },
     { src: gallery12, alt: "Compressor parafuso industrial - climatização e refrigeração" },
