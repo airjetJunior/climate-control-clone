@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import logoAirjet from "@/assets/logo-airjet.png";
 
 const Footer = () => {
@@ -15,10 +15,19 @@ const Footer = () => {
                 className="h-16 w-auto object-contain"
               />
             </div>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed">
+            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
               Especialistas em climatização com mais de 10 anos de experiência. 
               Instalação, manutenção e retífica de compressores.
             </p>
+            <a
+              href="https://www.instagram.com/airjet_climatizacao/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-primary text-primary-foreground hover:text-primary-foreground transition-colors"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Quick Links */}
