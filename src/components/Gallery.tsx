@@ -19,21 +19,21 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: gallery1, alt: "Manutenção de motor de compressor" },
-    { src: gallery2, alt: "Motor de compressor na bancada" },
-    { src: gallery3, alt: "Técnico realizando manutenção em motor" },
-    { src: gallery4, alt: "Fuso helicoidal de compressor" },
-    { src: gallery5, alt: "Motor de compressor industrial" },
-    { src: gallery6, alt: "Peças de compressor em manutenção" },
-    { src: gallery7, alt: "Bloco de compressor industrial" },
-    { src: gallery8, alt: "Estator e rotor de motor elétrico" },
-    { src: gallery9, alt: "Compressor Hitachi parafuso" },
-    { src: gallery10, alt: "Placa de válvulas de compressor" },
-    { src: gallery11, alt: "Compressor instalado em chiller" },
-    { src: gallery12, alt: "Compressor parafuso industrial" },
-    { src: gallery13, alt: "Compressor em movimentação" },
-    { src: gallery14, alt: "Estator de motor elétrico" },
-    { src: gallery15, alt: "Fuso e bloco de compressor" },
+    { src: gallery1, alt: "Manutenção de ar-condicionado em Ribeirão Preto - AirJet Climatização" },
+    { src: gallery2, alt: "Retífica de compressor de ar-condicionado em Ribeirão Preto" },
+    { src: gallery3, alt: "Técnico em ar-condicionado em Ribeirão Preto realizando manutenção" },
+    { src: gallery4, alt: "Fuso helicoidal de compressor - retífica de compressores" },
+    { src: gallery5, alt: "Motor de compressor industrial - climatização e refrigeração" },
+    { src: gallery6, alt: "Peças de compressor em manutenção - empresa de climatização Ribeirão Preto" },
+    { src: gallery7, alt: "Bloco de compressor industrial - retífica de compressores" },
+    { src: gallery8, alt: "Estator e rotor de motor elétrico de compressor" },
+    { src: gallery9, alt: "Compressor Hitachi parafuso - manutenção em Ribeirão Preto" },
+    { src: gallery10, alt: "Placa de válvulas de compressor de ar-condicionado" },
+    { src: gallery11, alt: "Instalação de ar-condicionado comercial em chiller" },
+    { src: gallery12, alt: "Compressor parafuso industrial - climatização e refrigeração" },
+    { src: gallery13, alt: "Movimentação de compressor para manutenção" },
+    { src: gallery14, alt: "Estator de motor elétrico para retífica" },
+    { src: gallery15, alt: "Fuso e bloco de compressor - retífica especializada" },
   ];
 
   return (
@@ -61,6 +61,7 @@ const Gallery = () => {
               <img
                 src={image.src}
                 alt={image.alt}
+                loading="lazy"
                 className="w-full h-48 md:h-64 object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/40 transition-colors duration-300 flex items-end">

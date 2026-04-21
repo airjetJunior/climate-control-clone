@@ -5,20 +5,20 @@ const Services = () => {
   const services = [
     {
       icon: Wind,
-      title: "Instalação de Ar Condicionado",
-      description: "Instalação profissional de sistemas de climatização residencial e comercial com garantia de qualidade.",
+      title: "Instalação de Ar-Condicionado em Ribeirão Preto",
+      description: "Instalação profissional de ar-condicionado para atendimento residencial, comercial e industrial em Ribeirão Preto e região.",
       features: ["Split", "Multi-split", "VRF", "Cassete"],
     },
     {
       icon: Wrench,
-      title: "Manutenção Preventiva e Corretiva",
-      description: "Serviços completos de manutenção para garantir o funcionamento perfeito do seu equipamento.",
+      title: "Manutenção Preventiva e Corretiva de Ar-Condicionado",
+      description: "Serviços completos de manutenção de ar-condicionado em Ribeirão Preto para garantir o funcionamento perfeito do seu equipamento.",
       features: ["Limpeza de filtros", "Recarga de gás", "Troca de peças", "Verificação elétrica"],
     },
     {
       icon: Settings,
-      title: "Retífica de Compressores",
-      description: "Especialistas em manutenção e retífica de compressores de climatização com equipamentos de ponta.",
+      title: "Retífica e Manutenção de Compressores",
+      description: "Especialistas em retífica de compressores de climatização e refrigeração com equipamentos de ponta e garantia.",
       features: ["Diagnóstico", "Retífica completa", "Teste de qualidade", "Garantia estendida"],
     },
   ];
@@ -29,10 +29,11 @@ const Services = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Nossos Serviços
+            Serviços de Climatização e Refrigeração
           </h2>
           <p className="text-lg text-muted-foreground">
-            Oferecemos soluções completas em climatização com qualidade e garantia
+            Soluções completas em climatização e refrigeração para atendimento residencial,
+            comercial e industrial em Ribeirão Preto – SP.
           </p>
         </div>
 
