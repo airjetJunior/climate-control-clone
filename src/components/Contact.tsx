@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, MessageCircle, CheckCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle, CheckCircle, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -25,6 +25,12 @@ const Contact = () => {
       icon: Clock,
       title: "Horário de Atendimento",
       value: "Segunda a Sexta: 8h às 18h",
+    },
+    {
+      icon: Instagram,
+      title: "Instagram",
+      value: "@airjet_climatizacao",
+      href: "https://www.instagram.com/airjet_climatizacao/",
     },
   ];
 
