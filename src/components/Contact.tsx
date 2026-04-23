@@ -19,7 +19,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Localização",
       value: "Ribeirão Preto - SP",
-      subtitle: "Atendemos toda a região",
+      subtitle: "Atendemos Ribeirão Preto, região e todos os estados do Brasil",
     },
     {
       icon: Clock,

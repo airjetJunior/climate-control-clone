@@ -33,7 +33,8 @@ const Services = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Soluções completas em climatização e refrigeração para atendimento residencial,
-            comercial e industrial em Ribeirão Preto e região.
+            comercial e industrial em Ribeirão Preto e região, com cobertura em todos os
+            estados do Brasil.
           </p>
         </div>
 

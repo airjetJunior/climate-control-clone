@@ -19,11 +19,14 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 py-12 lg:py-20 relative z-10">
         {/* Centered H1 at the top */}
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-12 lg:mb-16 text-center max-w-4xl mx-auto animate-fade-in-up">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6 lg:mb-8 text-center max-w-4xl mx-auto animate-fade-in-up">
           Instalação e Manutenção de{" "}
           <span className="text-primary">Ar-Condicionado</span>{" "}
           em Ribeirão Preto e Região
         </h1>
+        <p className="text-base md:text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-12 lg:mb-16 animate-fade-in-up">
+          Sediada em Ribeirão Preto - SP, com atendimento em <strong>todos os estados do Brasil</strong>.
+        </p>
 
         <div className="grid lg:grid-cols-[1fr_2fr] gap-12 lg:gap-16 items-center">
           {/* Left Content */}
@@ -36,10 +39,10 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              A AirJet Climatização é uma empresa sediada em Ribeirão Preto, especializada
-              em instalação e manutenção de ar-condicionado em Ribeirão Preto e região,
-              oferecendo soluções completas em climatização e refrigeração com atendimento
-              rápido e equipe técnica qualificada.
+              A AirJet Climatização é uma empresa sediada em Ribeirão Preto - SP,
+              especializada em instalação e manutenção de ar-condicionado em Ribeirão Preto
+              e região, com atendimento em todos os estados do Brasil. Oferecemos soluções
+              completas em climatização e refrigeração com equipe técnica qualificada.
             </p>
 
             {/* Features List */}
