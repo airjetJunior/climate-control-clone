@@ -16,7 +16,8 @@ const Footer = () => {
               />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Especialistas em climatização com mais de 10 anos de experiência. 
+              Especialistas em climatização com mais de 10 anos de experiência.
+              Sediados em Ribeirão Preto - SP, com atendimento em todos os estados do Brasil.
               Instalação, manutenção e retífica de compressores.
             </p>
           </div>

@@ -34,13 +34,14 @@ const WhyChooseUs = () => {
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
             A AirJet Climatização atua há mais de 10 anos como empresa de climatização
-            sediada em Ribeirão Preto, atendendo Ribeirão Preto e região com técnicos em
+            sediada em Ribeirão Preto - SP, atendendo Ribeirão Preto e região e também
+            todos os estados do Brasil (AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG,
+            PA, PB, PR, PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE e TO) com técnicos em
             ar-condicionado especializados em serviços residenciais, comerciais e
-            industriais. Solicite um orçamento rápido pelo WhatsApp ou telefone e fale com
-            nossa equipe local.
+            industriais. Solicite um orçamento rápido pelo WhatsApp ou telefone.
           </p>
           <h3 className="text-base font-semibold text-primary">
-            Técnico em ar-condicionado em Ribeirão Preto e região · Orçamento rápido e atendimento especializado
+            Técnico em ar-condicionado em Ribeirão Preto e região · Atendimento em todo o Brasil
           </h3>
         </div>
 
