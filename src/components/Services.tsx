@@ -1,4 +1,4 @@
-import { Wind, Wrench, Settings } from "lucide-react";
+import { Wind, Wrench, Settings, Snowflake } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const Services = () => {
@@ -20,6 +20,12 @@ const Services = () => {
       title: "Retífica e Manutenção de Compressores",
       description: "Especialistas em retífica de compressores de climatização e refrigeração com equipamentos de ponta e garantia.",
       features: ["Diagnóstico", "Retífica completa", "Teste de qualidade", "Garantia estendida"],
+    },
+    {
+      icon: Snowflake,
+      title: "Instalação e Manutenção de Chiller",
+      description: "Projeto, instalação e manutenção preventiva e corretiva de chillers para aplicações comerciais e industriais em todo o Brasil.",
+      features: ["Instalação completa", "Manutenção preventiva", "Manutenção corretiva", "Atendimento industrial"],
     },
   ];
 
