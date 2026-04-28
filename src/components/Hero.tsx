@@ -21,7 +21,7 @@ const Hero = () => {
         {/* Centered H1 at the top */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6 lg:mb-8 text-center max-w-4xl mx-auto animate-fade-in-up">
           Instalação e Manutenção de{" "}
-          <span className="text-primary">Ar-Condicionado</span>{" "}
+          <span className="text-primary">Ar-Condicionado e HVAC</span>{" "}
           em Ribeirão Preto e Região
         </h1>
         <p className="text-base md:text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-12 lg:mb-16 animate-fade-in-up">
