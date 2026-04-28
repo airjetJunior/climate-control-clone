@@ -40,9 +40,9 @@ const Hero = () => {
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
               A AirJet Climatização é uma empresa sediada em Ribeirão Preto - SP,
-              especializada em instalação e manutenção de ar-condicionado em Ribeirão Preto
+              especializada em instalação e manutenção de ar-condicionado e HVAC em Ribeirão Preto
               e região, com atendimento em todos os estados do Brasil. Oferecemos soluções
-              completas em climatização e refrigeração com equipe técnica qualificada.
+              completas em climatização, HVAC e refrigeração com equipe técnica qualificada.
             </p>
 
             {/* Features List */}
