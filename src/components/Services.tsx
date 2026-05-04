@@ -18,7 +18,7 @@ const Services = () => {
     {
       icon: Settings,
       title: "Retífica e Manutenção de Compressores",
-      description: "Especialistas em retífica de compressores de climatização e refrigeração com equipamentos de ponta e garantia.",
+      description: "Especialistas em retífica de compressores de climatização, refrigeração e ar comprimido com equipamentos de ponta e garantia.",
       features: ["Diagnóstico", "Retífica completa", "Teste de qualidade", "Garantia estendida"],
     },
     {
