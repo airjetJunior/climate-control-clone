@@ -7,7 +7,7 @@ const Services = () => {
       icon: Wind,
       title: "Instalação de Ar-Condicionado em Ribeirão Preto e Região",
       description: "Instalação profissional de ar-condicionado para atendimento residencial, comercial e industrial em Ribeirão Preto e região.",
-      features: ["Split", "Multi-split", "VRF", "Cassete"],
+      features: ["Split", "Multi-split", "VRF", "Dutado (Central)"],
     },
     {
       icon: Wrench,
