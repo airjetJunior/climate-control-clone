@@ -13,7 +13,7 @@ const Services = () => {
       icon: Wrench,
       title: "Manutenção Preventiva e Corretiva de Ar-Condicionado",
       description: "Serviços completos de manutenção de ar-condicionado em Ribeirão Preto e região para garantir o funcionamento perfeito do seu equipamento.",
-      features: ["Limpeza de filtros", "Recarga de gás", "Troca de peças", "Verificação elétrica"],
+      features: ["Limpeza de dutos de ar-condicionado", "Limpeza e higienização", "Troca de peças", "Verificação elétrica"],
     },
     {
       icon: Settings,
