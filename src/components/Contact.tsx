@@ -12,8 +12,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "junior.airjet@gmail.com",
-      href: "mailto:junior.airjet@gmail.com",
+      value: "junior@airjetclimatizacao.com.br",
+      href: "mailto:junior@airjetclimatizacao.com.br",
     },
     {
       icon: MapPin,
