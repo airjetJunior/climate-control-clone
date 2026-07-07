@@ -80,13 +80,22 @@ const WhyChooseUs = () => {
           </div>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { name: "Komeco", src: komecoLogo.url },
-              { name: "Agratto", src: agrattoLogo.url },
-              { name: "TCL Semp", src: tclsempLogo.url },
+              { name: "Komeco", src: komecoLogo.url, color: "#E94E1B" },
+              { name: "Agratto", src: agrattoLogo.url, color: "#00A650" },
+              { name: "TCL Semp", src: tclsempLogo.url, color: "#E60012" },
             ].map((brand, index) => (
               <div
                 key={index}
-                className="px-6 py-4 bg-card border border-border rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 flex items-center justify-center h-24 w-48"
+                className="px-6 py-4 bg-card border-2 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 flex items-center justify-center h-24 w-48"
+                style={{
+                  borderColor: `${brand.color}40`,
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = brand.color;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = `${brand.color}40`;
+                }}
               >
                 <img
                   src={brand.src}
