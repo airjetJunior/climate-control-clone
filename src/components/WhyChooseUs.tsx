@@ -1,4 +1,7 @@
 import { Shield, Clock, Award, Users } from "lucide-react";
+import komecoLogo from "@/assets/komeco.png.asset.json";
+import agrattoLogo from "@/assets/agratto.png.asset.json";
+import tclsempLogo from "@/assets/tclsemp.png.asset.json";
 
 const WhyChooseUs = () => {
   const reasons = [
@@ -75,30 +78,22 @@ const WhyChooseUs = () => {
               Serviço técnico autorizado e especializado nas principais marcas do mercado de climatização
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { name: "Komeco", color: "#E94E1B" },
-              { name: "Agratto", color: "#00A650" },
-              { name: "TCL Semp", color: "#E60012" },
+              { name: "Komeco", src: komecoLogo.url },
+              { name: "Agratto", src: agrattoLogo.url },
+              { name: "TCL Semp", src: tclsempLogo.url },
             ].map((brand, index) => (
               <div
                 key={index}
-                className="px-8 py-5 bg-card border-2 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300"
-                style={{
-                  borderColor: `${brand.color}40`,
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = brand.color;
-                  e.currentTarget.querySelector("span")!.style.color = brand.color;
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = `${brand.color}40`;
-                  e.currentTarget.querySelector("span")!.style.color = "inherit";
-                }}
+                className="px-6 py-4 bg-card border border-border rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 flex items-center justify-center h-24 w-48"
               >
-                <span className="text-xl md:text-2xl font-bold text-foreground transition-colors duration-300">
-                  {brand.name}
-                </span>
+                <img
+                  src={brand.src}
+                  alt={`Logo ${brand.name}`}
+                  className="max-h-14 max-w-full object-contain"
+                  loading="lazy"
+                />
               </div>
             ))}
           </div>
