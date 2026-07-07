@@ -64,6 +64,30 @@ const WhyChooseUs = () => {
             </div>
           ))}
         </div>
+
+        {/* Brand Credentials */}
+        <div className="mt-20 pt-12 border-t border-border">
+          <div className="text-center mb-10">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
+              Credenciada com as Principais Marcas
+            </h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Serviço técnico autorizado e especializado nas principais marcas do mercado de climatização
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-6">
+            {["Komeco", "Agratto", "TCL Semp"].map((brand, index) => (
+              <div
+                key={index}
+                className="px-8 py-5 bg-card border border-border rounded-2xl shadow-card hover:border-primary/50 hover:shadow-card-hover transition-all duration-300"
+              >
+                <span className="text-xl md:text-2xl font-bold text-foreground">
+                  {brand}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
