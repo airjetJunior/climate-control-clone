@@ -76,13 +76,28 @@ const WhyChooseUs = () => {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-6">
-            {["Komeco", "Agratto", "TCL Semp"].map((brand, index) => (
+            {[
+              { name: "Komeco", color: "#E94E1B" },
+              { name: "Agratto", color: "#00A650" },
+              { name: "TCL Semp", color: "#E60012" },
+            ].map((brand, index) => (
               <div
                 key={index}
-                className="px-8 py-5 bg-card border border-border rounded-2xl shadow-card hover:border-primary/50 hover:shadow-card-hover transition-all duration-300"
+                className="px-8 py-5 bg-card border-2 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300"
+                style={{
+                  borderColor: `${brand.color}40`,
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = brand.color;
+                  e.currentTarget.querySelector("span")!.style.color = brand.color;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = `${brand.color}40`;
+                  e.currentTarget.querySelector("span")!.style.color = "inherit";
+                }}
               >
-                <span className="text-xl md:text-2xl font-bold text-foreground">
-                  {brand}
+                <span className="text-xl md:text-2xl font-bold text-foreground transition-colors duration-300">
+                  {brand.name}
                 </span>
               </div>
             ))}
