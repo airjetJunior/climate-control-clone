@@ -1,4 +1,7 @@
 import { Shield, Clock, Award, Users } from "lucide-react";
+import komecoAsset from "@/assets/komeco.png.asset.json";
+import agrattoAsset from "@/assets/agratto.png.asset.json";
+import tclsempAsset from "@/assets/tclsemp.png.asset.json";
 
 const WhyChooseUs = () => {
   const reasons = [
@@ -63,6 +66,44 @@ const WhyChooseUs = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Credenciadas */}
+        <div className="mt-20 pt-16 border-t border-border">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
+              Credenciada com as Principais Marcas
+            </h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Serviço técnico autorizado e especializado nas principais marcas do mercado de climatização
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="bg-card border-2 border-orange-500/30 rounded-xl p-6 flex items-center justify-center hover:border-orange-500 hover:shadow-lg hover:shadow-orange-500/10 transition-all duration-300">
+              <img
+                src={komecoAsset.url}
+                alt="Logo Komeco"
+                className="max-h-16 w-auto object-contain"
+                loading="lazy"
+              />
+            </div>
+            <div className="bg-card border-2 border-green-600/30 rounded-xl p-6 flex items-center justify-center hover:border-green-600 hover:shadow-lg hover:shadow-green-600/10 transition-all duration-300">
+              <img
+                src={agrattoAsset.url}
+                alt="Logo Agratto"
+                className="max-h-16 w-auto object-contain"
+                loading="lazy"
+              />
+            </div>
+            <div className="bg-card border-2 border-red-600/30 rounded-xl p-6 flex items-center justify-center hover:border-red-600 hover:shadow-lg hover:shadow-red-600/10 transition-all duration-300">
+              <img
+                src={tclsempAsset.url}
+                alt="Logo TCL Semp"
+                className="max-h-16 w-auto object-contain"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
