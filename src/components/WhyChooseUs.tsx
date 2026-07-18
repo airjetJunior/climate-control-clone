@@ -1,7 +1,4 @@
 import { Shield, Clock, Award, Users } from "lucide-react";
-import komecoAsset from "@/assets/komeco.png.asset.json";
-import agrattoAsset from "@/assets/agratto.png.asset.json";
-import tclsempAsset from "@/assets/tclsemp.png.asset.json";
 
 const WhyChooseUs = () => {
   const reasons = [
