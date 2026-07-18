@@ -64,46 +64,6 @@ const WhyChooseUs = () => {
             </div>
           ))}
         </div>
-
-        {/* Brand Credentials */}
-        <div className="mt-20 pt-12 border-t border-border">
-          <div className="text-center mb-10">
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-              Credenciada com as Principais Marcas
-            </h3>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Serviço técnico autorizado e especializado nas principais marcas do mercado de climatização
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-            {[
-              { name: "Komeco", src: komecoLogo.url, color: "#E94E1B" },
-              { name: "Agratto", src: agrattoLogo.url, color: "#00A650" },
-              { name: "TCL Semp", src: tclsempLogo.url, color: "#E60012" },
-            ].map((brand, index) => (
-              <div
-                key={index}
-                className="px-6 py-4 bg-card border-2 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 flex items-center justify-center h-24 w-48"
-                style={{
-                  borderColor: `${brand.color}40`,
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = brand.color;
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = `${brand.color}40`;
-                }}
-              >
-                <img
-                  src={brand.src}
-                  alt={`Logo ${brand.name}`}
-                  className="max-h-14 max-w-full object-contain"
-                  loading="lazy"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
