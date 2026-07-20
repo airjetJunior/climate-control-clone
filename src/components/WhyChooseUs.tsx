@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
             todos os estados do Brasil (AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG,
             PA, PB, PR, PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE e TO) com técnicos em
             ar-condicionado especializados em serviços residenciais, comerciais e
-            industriais. Solicite um orçamento rápido pelo WhatsApp ou telefone.
+            industriais. Entre em contato pelo WhatsApp ou telefone.
           </p>
           <h3 className="text-base font-semibold text-primary">
             Técnico em ar-condicionado em Ribeirão Preto e região · Atendimento em todo o Brasil

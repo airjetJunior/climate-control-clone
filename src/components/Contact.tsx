@@ -43,7 +43,7 @@ const Contact = () => {
             Entre em Contato
           </h2>
           <p className="text-lg text-muted-foreground">
-            Solicite um orçamento sem compromisso ou tire suas dúvidas com nossa equipe
+            Tire suas dúvidas e fale diretamente com nossa equipe
           </p>
         </div>
 
@@ -80,10 +80,10 @@ const Contact = () => {
           {/* CTA Card */}
           <div className="bg-card rounded-2xl p-8 lg:p-10 border border-border shadow-card">
             <h3 className="text-xl font-bold text-foreground mb-4">
-              Solicite um Orçamento
+              Fale Conosco
             </h3>
             <p className="text-muted-foreground mb-8">
-              Preencha o formulário ou entre em contato diretamente pelos nossos canais. 
+              Entre em contato diretamente pelos nossos canais. 
               Nossa equipe responderá o mais rápido possível.
             </p>
 
@@ -110,11 +110,11 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                Orçamento gratuito
+                Atendimento rápido
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-primary" />
-                Atendimento rápido
+                Suporte técnico especializado
               </div>
             </div>
           </div>

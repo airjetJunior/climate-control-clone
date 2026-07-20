@@ -60,7 +60,7 @@ const Navbar = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center">
             <Button asChild variant="hero" size="default" className="shadow-md hover:shadow-lg transition-shadow">
-              <a href="#contato">Solicitar Orçamento</a>
+              <a href="#contato">Entrar em Contato</a>
             </Button>
           </div>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button asChild variant="hero" size="lg" className="mt-4 shadow-md">
-                <a href="#contato">Solicitar Orçamento</a>
+                <a href="#contato">Entrar em Contato</a>
               </Button>
             </div>
           </div>
