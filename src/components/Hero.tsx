@@ -58,7 +58,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild variant="hero" size="xl">
-                <a href="#contato">Solicitar Orçamento</a>
+                <a href="#contato">Entrar em Contato</a>
               </Button>
               <Button asChild variant="heroOutline" size="xl">
                 <a href="tel:+5516991613129" className="flex items-center gap-2">
