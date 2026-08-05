@@ -1,4 +1,4 @@
-import { Wind, Wrench, Settings, Snowflake } from "lucide-react";
+import { Wind, Wrench, Settings, Snowflake, ClipboardCheck } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const Services = () => {
@@ -65,6 +65,23 @@ const Services = () => {
       title: "Instalação e Manutenção de Chiller",
       description: "Projeto, instalação e manutenção preventiva e corretiva de chillers para aplicações comerciais e industriais em todo o Brasil.",
       features: ["Instalação completa", "Manutenção preventiva", "Manutenção corretiva", "Atendimento industrial"],
+    },
+    {
+      icon: ClipboardCheck,
+      title: "PMOC - Plano de Manutenção, Operação e Controle",
+      description: "Elaboração e execução de PMOC para sistemas de climatização em conformidade com a NR-36 e ANVISA, atendendo clínicas, hospitais, supermercados e empresas em Ribeirão Preto e região.",
+      features: [
+        "PMOC",
+        "Contrato PMOC",
+        "Empresa PMOC",
+        "PMOC Ribeirão Preto",
+        "Manutenção PMOC",
+        "PMOC NR",
+        "PMOC ANVISA",
+        "PMOC para clínicas",
+        "PMOC para hospitais",
+        "PMOC para supermercados",
+      ],
     },
   ];
 
